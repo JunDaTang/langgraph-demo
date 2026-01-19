@@ -34,3 +34,8 @@ def run_demo():
 
 if __name__ == "__main__":
   run_demo()
+
+
+# 3.2 字符串连接Reducer演示:
+# 初始状态: {'text': 'Say: '}
+# 执行结果: {'text': 'Say: Hello World!'}

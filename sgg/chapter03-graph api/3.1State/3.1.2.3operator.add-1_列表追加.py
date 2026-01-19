@@ -34,3 +34,8 @@ def run_demo():
 
 if __name__ == "__main__":
   run_demo()
+
+
+# 3.1 operator.add Reducer（列表追加）演示:
+# 初始状态: {'data': [0]}
+# 执行结果: {'data': [0, 1, 2, 3, 4]}

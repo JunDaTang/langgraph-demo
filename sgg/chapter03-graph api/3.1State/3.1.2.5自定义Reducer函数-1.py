@@ -24,7 +24,7 @@ def run_demo():
   builder = StateGraph(CustomReducerState)
   builder.add_node("update_metadata", update_metadata)
   builder.add_edge(START, "update_metadata")
-  builder.add_edge("update_metadata", END)
+  builder.add_edge("update_metadata", END)  
   graph = builder.compile()
   
   result = graph.invoke({"metadata": {"user_id": "123", "session": "abc"}})
