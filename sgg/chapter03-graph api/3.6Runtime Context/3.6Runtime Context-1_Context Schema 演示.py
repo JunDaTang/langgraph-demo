@@ -89,7 +89,6 @@ def main():
   # 编译图
   graph = builder.compile()
   
-
   # 定义初始状态
   initial_state = {
     "messages": [HumanMessage(content="请帮我查询最新的订单信息")],
